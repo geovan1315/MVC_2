@@ -1,6 +1,7 @@
 <?php
 	
-	include ('Controller/Home.Controller.php');
+	//include ('Controller/Home.Controller.php');
+	include('AutoLoad.php');
 
 	if(isset($_GET['controller']))
 	{
@@ -20,7 +21,7 @@
 	}
 	else 
 	{
-		echo "la clase y el controlador no existen";
+		echo "<br/>la clase y el controlador no existen";
 	}
 
 
